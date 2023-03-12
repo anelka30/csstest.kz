@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    font-family: 'Times New Roman';
+    background-size: cover;
+    border:5px solid purple;   
+    margin: 20px;
+    padding: 17px;
+    align-content: center;
+
+}
+h1{
+    color: palevioletred;
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    font-family: Impact;
+    background: white;
+    width: 83px;
+    height: 38px;
+    transition: width 2s, height 2s, border-radius 2s;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 9px;
+
+}
+button:hover{
+    background: orchid;
+    display: flex;
+    flex-wrap: wrap;
+}
+button:active{
+    width: 160px;
+    height: 86px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    border:3px solid palevioletred; 
+}
+
+h2{
+    font-family: Helvetica;
+    display: flex;
+    flex-wrap: wrap;
+}
+
